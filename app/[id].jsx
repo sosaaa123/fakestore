@@ -31,7 +31,7 @@ export default function Producto() {
   }
   return (
     <>
-      <ScrollView>
+      <ScrollView className="bg-white">
         <View className="flex-1 py-3 pl-2 bg-black">
           <View>
             <Link href="/" asChild>
@@ -39,7 +39,7 @@ export default function Producto() {
             </Link>
           </View>
         </View>
-        <View className="p-4 flex-1 flex-col items-center justify-center">
+        <View className="p-4 flex-1 flex-col items-center justify-center bg-white">
           <View className="p-12">
             <Image
               style={{ width: 200, height: 200 }}
